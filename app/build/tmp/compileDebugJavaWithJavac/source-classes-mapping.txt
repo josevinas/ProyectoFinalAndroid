@@ -1,0 +1,4 @@
+com/example/practicafinalandroid_josevinas_paulacabello/BuildConfig.java
+ com.example.practicafinalandroid_josevinas_paulacabello.BuildConfig
+com/example/practicafinalandroid_josevinas_paulacabello/MainActivity.java
+ com.example.practicafinalandroid_josevinas_paulacabello.MainActivity
