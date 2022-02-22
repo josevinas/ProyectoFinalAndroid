@@ -10,24 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ad2af14-6d5f-41fd-a84d-f81830ee6ae4" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/MusicaActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toast_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_musica.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/toast_vacio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/ic_toast_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/dao/CancionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/dao/CancionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/dao/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/entidades/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/entidades/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/entidades/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/entidades/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/roomDataBase/CancionDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/roomDataBase/CancionDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/roomDataBase/UsuarioDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practicafinalandroid_josevinas_paulacabello/roomDataBase/UsuarioDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645523355473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1645535002186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645535002186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -97,6 +97,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         campoUsuario.setText("");
                         campoContrasena.setText("");
                         Toast.makeText(this, "Usuario registrado correctamente!", Toast.LENGTH_SHORT).show();
+
+                        intent = new Intent(MainActivity.this, MusicaActivity.class);
+                        intent.putParcelableArrayListExtra("listaCanciones", (ArrayList<? extends Parcelable>) usu.getLista());
+                        startActivity(intent);
                     }
                     catch (Exception e) {
                         toast = new Toast(getApplicationContext());
