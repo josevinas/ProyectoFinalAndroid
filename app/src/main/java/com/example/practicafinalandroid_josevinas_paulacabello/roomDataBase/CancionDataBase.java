@@ -17,20 +17,20 @@ public abstract class CancionDataBase extends RoomDatabase {
 
     public abstract UsuarioDAO CancionDAO();
 
-    private static final String DATABASE_NAME = "musica-db";
-    private static CancionDataBase INSTANCE;
-    private static final int THREADS = 4;
-
-    public static final ExecutorService dbExecutor = Executors.newFixedThreadPool(THREADS);
-
-    public static CancionDataBase getInstance(final Context context) {
-        if (INSTANCE == null) {
-            synchronized (CancionDataBase.class) {
-                if (INSTANCE == null) {
-                    INSTANCE = Room.databaseBuilder( context.getApplicationContext(), CancionDataBase.class, DATABASE_NAME).build();
-                }
-            }
-        }
-        return INSTANCE;
-    }
+//    private static final String DATABASE_NAME = "musica-db";
+//    private static CancionDataBase INSTANCE;
+//    private static final int THREADS = 4;
+//
+//    public static final ExecutorService dbExecutor = Executors.newFixedThreadPool(THREADS);
+//
+//    public static CancionDataBase getInstance(final Context context) {
+//        if (INSTANCE == null) {
+//            synchronized (CancionDataBase.class) {
+//                if (INSTANCE == null) {
+//                    INSTANCE = Room.databaseBuilder( context.getApplicationContext(), CancionDataBase.class, DATABASE_NAME).build();
+//                }
+//            }
+//        }
+//        return INSTANCE;
+//    }
 }

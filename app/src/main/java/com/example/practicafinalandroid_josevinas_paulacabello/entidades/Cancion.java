@@ -26,37 +26,34 @@ public class Cancion {
     @ColumnInfo(name = "imagen")
     private int imagen;
 
-    public Cancion (@NonNull String nombre, @NonNull String autor, @NonNull Time duracion, int imagen) {
+    public Cancion (String nombre, String autor, Time duracion, int imagen) {
         this.nombre = nombre;
         this.autor = autor;
         this.duracion = duracion;
         this.imagen = imagen;
     }
 
-    @NonNull
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(@NonNull String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    @NonNull
     public String getAutor() {
         return autor;
     }
 
-    public void setAutor(@NonNull String autor) {
+    public void setAutor(String autor) {
         this.autor = autor;
     }
 
-    @NonNull
     public Time getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(@NonNull Time duracion) {
+    public void setDuracion(Time duracion) {
         this.duracion = duracion;
     }
 

@@ -21,7 +21,7 @@
             tools:ignore="ImageContrastCheck" />
 
         <EditText
-            android:id="@+id/usuario"
+            android:id="@+id/campoUsuario"
             android:layout_width="320dp"
             android:layout_height="48dp"
             android:layout_margin="44dp"
@@ -33,7 +33,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/contrasena"
+            android:id="@+id/campoContrasena"
             android:layout_width="320dp"
             android:layout_height="48dp"
             android:layout_margin="44dp"

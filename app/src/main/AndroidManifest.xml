@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello">
         <activity
+            android:name=".MusicaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
