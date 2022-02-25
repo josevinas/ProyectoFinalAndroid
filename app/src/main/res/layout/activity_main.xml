@@ -22,13 +22,13 @@
             tools:ignore="ImageContrastCheck" />
 
         <EditText
-            android:id="@+id/campoUsuario"
+            android:id="@+id/campoNombre"
             android:layout_width="320dp"
             android:layout_height="48dp"
             android:layout_margin="44dp"
             android:background="#D6D0D0"
             android:gravity="center"
-            android:hint="@string/usuario"
+            android:hint="@string/nombre"
             android:textAlignment="center"
             android:textColor="#070707"
             android:textSize="20sp" />

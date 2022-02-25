@@ -1688,7 +1688,7 @@ int id bounce 0x7f0a0058
 int id buttonPanel 0x7f0a0059
 int id cache_measures 0x7f0a005a
 int id campoContrasena 0x7f0a005b
-int id campoUsuario 0x7f0a005c
+int id campoNombre 0x7f0a0188
 int id cancel_button 0x7f0a005d
 int id cardView 0x7f0a005e
 int id center 0x7f0a005f
@@ -1958,7 +1958,7 @@ int id time 0x7f0a0166
 int id title 0x7f0a0167
 int id titleDividerNoCustom 0x7f0a0168
 int id title_template 0x7f0a0169
-int id toast_vacio 0x7f0a016a
+int id toast_duplicado 0x7f0a0189
 int id toggle 0x7f0a016b
 int id top 0x7f0a016c
 int id topPanel 0x7f0a016d
@@ -2122,7 +2122,7 @@ int layout text_view_with_line_height_from_layout 0x7f0d0062
 int layout text_view_with_line_height_from_style 0x7f0d0063
 int layout text_view_with_theme_line_height 0x7f0d0064
 int layout text_view_without_line_height 0x7f0d0065
-int layout toast_vacio 0x7f0d0066
+int layout toast_duplicado 0x7f0d0067
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int mipmap icono 0x7f0e0002
@@ -2209,6 +2209,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f10004d
 int string mtrl_picker_toggle_to_day_selection 0x7f10004e
 int string mtrl_picker_toggle_to_text_input_mode 0x7f10004f
 int string mtrl_picker_toggle_to_year_selection 0x7f100050
+int string nombre 0x7f10005a
 int string password_toggle_content_description 0x7f100051
 int string path_password_eye 0x7f100052
 int string path_password_eye_mask_strike_through 0x7f100053
@@ -2217,7 +2218,6 @@ int string path_password_strike_through 0x7f100055
 int string registrarse 0x7f100056
 int string search_menu_title 0x7f100057
 int string status_bar_notification_info_overflow 0x7f100058
-int string usuario 0x7f100059
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style AndroidThemeColorAccentYellow 0x7f110002

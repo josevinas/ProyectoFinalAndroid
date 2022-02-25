@@ -20,13 +20,8 @@ public interface UsuarioDAO {
     void insert(Usuario usuario);
 
     // Leer Usuario
-    @Query("SELECT nombre FROM usuario WHERE nombre LIKE :name")
-    String readName(String name);
-
-    //Leer TODOS Usuarios
-//    @Transaction
-//    @Query("SELECT nombre FROM usuario")
-//    LiveData<List<String>> readAll();
+    @Query("SELECT * FROM usuario WHERE nombre = :nombre")
+    Usuario getByName(String nombre);
 
     // Eliminar Usuario
     @Delete

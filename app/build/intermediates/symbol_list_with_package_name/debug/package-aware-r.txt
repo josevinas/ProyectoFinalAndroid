@@ -1689,7 +1689,7 @@ id bounce
 id buttonPanel
 id cache_measures
 id campoContrasena
-id campoUsuario
+id campoNombre
 id cancel_button
 id cardView
 id center
@@ -1959,7 +1959,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id toast_vacio
+id toast_duplicado
 id toggle
 id top
 id topPanel
@@ -2123,7 +2123,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-layout toast_vacio
+layout toast_duplicado
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap icono
@@ -2210,6 +2210,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string nombre
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2218,7 +2219,6 @@ string path_password_strike_through
 string registrarse
 string search_menu_title
 string status_bar_notification_info_overflow
-string usuario
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

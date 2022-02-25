@@ -144,12 +144,12 @@
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-mdpi\\icono_round.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_toast_vacio.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\toast_vacio.xml"
-    },
-    {
         "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_icono.xml.flat",
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-anydpi-v26\\icono.xml"
+    },
+    {
+        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_toast_duplicado.xml.flat",
+        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\toast_duplicado.xml"
     },
     {
         "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_musica.xml.flat",
