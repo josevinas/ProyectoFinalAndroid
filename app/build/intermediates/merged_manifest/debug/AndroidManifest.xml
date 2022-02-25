@@ -19,7 +19,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
         <activity
-            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MusicaActivity"
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
             android:exported="false" />
         <activity
             android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"

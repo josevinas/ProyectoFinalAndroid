@@ -988,6 +988,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gradiente
 color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
@@ -1554,6 +1555,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_account
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1789,7 +1791,6 @@ id img_cancion
 id img_close
 id img_pause
 id img_play
-id img_playCard
 id info
 id invisible
 id italic
@@ -1928,6 +1929,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id tabLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -1972,7 +1974,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tv_duracionCancion
 id tv_nombreCancion
 id tv_nombreCancionReproductor
 id tv_nombreCantante
@@ -1982,6 +1983,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id viewPager2
 id view_offset_helper
 id visible
 id withText
@@ -2052,6 +2054,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_musica
 layout activity_musica_recycler
+layout activity_pestanas
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2069,7 +2072,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_lista_musica
+layout fragment_musica
 layout fragment_reproductor
+layout fragment_usuario
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

@@ -20,6 +20,10 @@
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-hdpi\\icono_round.png"
     },
     {
+        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pestanas.xml.flat",
+        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\activity_pestanas.xml"
+    },
+    {
         "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -104,6 +108,10 @@
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\princesas.jpg"
     },
     {
+        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_musica.xml.flat",
+        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_musica.xml"
+    },
+    {
         "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_transition.xml.flat",
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\anim\\fade_transition.xml"
     },
@@ -160,8 +168,16 @@
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_reproductor.xml"
     },
     {
+        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_usuario.xml.flat",
+        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_usuario.xml"
+    },
+    {
         "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_corazon_partio.jpg.flat",
         "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\corazon_partio.jpg"
+    },
+    {
+        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_account.png.flat",
+        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\ic_account.png"
     },
     {
         "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello">
         <activity
-            android:name=".MusicaActivity"
+            android:name=".PestanasActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void cambiarActividad() {
-        intent = new Intent(MainActivity.this, MusicaActivity.class);
+        intent = new Intent(MainActivity.this, PestanasActivity.class);
         startActivity(intent);
     }
 

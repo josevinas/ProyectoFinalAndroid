@@ -987,6 +987,7 @@ int color error_color_material_dark 0x7f060059
 int color error_color_material_light 0x7f06005a
 int color foreground_material_dark 0x7f06005b
 int color foreground_material_light 0x7f06005c
+int color gradiente 0x7f0600d2
 int color green 0x7f06005d
 int color highlighted_text_material_dark 0x7f06005e
 int color highlighted_text_material_light 0x7f06005f
@@ -1553,6 +1554,7 @@ int drawable design_ic_visibility 0x7f08006c
 int drawable design_ic_visibility_off 0x7f08006d
 int drawable design_password_eye 0x7f08006e
 int drawable design_snackbar_background 0x7f08006f
+int drawable ic_account 0x7f080099
 int drawable ic_launcher_background 0x7f080070
 int drawable ic_launcher_foreground 0x7f080071
 int drawable ic_mtrl_checked_circle 0x7f080072
@@ -1788,7 +1790,6 @@ int id img_cancion 0x7f0a00bc
 int id img_close 0x7f0a00bd
 int id img_pause 0x7f0a00be
 int id img_play 0x7f0a00bf
-int id img_playCard 0x7f0a00c0
 int id info 0x7f0a00c1
 int id invisible 0x7f0a00c2
 int id italic 0x7f0a00c3
@@ -1927,6 +1928,7 @@ int id stop 0x7f0a0147
 int id stretch 0x7f0a0148
 int id submenuarrow 0x7f0a0149
 int id submit_area 0x7f0a014a
+int id tabLayout 0x7f0a018a
 int id tabMode 0x7f0a014b
 int id tag_accessibility_actions 0x7f0a014c
 int id tag_accessibility_clickable_spans 0x7f0a014d
@@ -1971,7 +1973,6 @@ int id transition_position 0x7f0a0173
 int id transition_scene_layoutid_cache 0x7f0a0174
 int id transition_transform 0x7f0a0175
 int id triangle 0x7f0a0176
-int id tv_duracionCancion 0x7f0a0177
 int id tv_nombreCancion 0x7f0a0178
 int id tv_nombreCancionReproductor 0x7f0a0179
 int id tv_nombreCantante 0x7f0a017a
@@ -1981,6 +1982,7 @@ int id uniform 0x7f0a017d
 int id unlabeled 0x7f0a017e
 int id up 0x7f0a017f
 int id useLogo 0x7f0a0180
+int id viewPager2 0x7f0a018b
 int id view_offset_helper 0x7f0a0181
 int id visible 0x7f0a0182
 int id withText 0x7f0a0183
@@ -2051,6 +2053,7 @@ int layout abc_tooltip 0x7f0d001b
 int layout activity_main 0x7f0d001c
 int layout activity_musica 0x7f0d001d
 int layout activity_musica_recycler 0x7f0d001e
+int layout activity_pestanas 0x7f0d0068
 int layout custom_dialog 0x7f0d001f
 int layout design_bottom_navigation_item 0x7f0d0020
 int layout design_bottom_sheet_dialog 0x7f0d0021
@@ -2068,7 +2071,9 @@ int layout design_navigation_menu_item 0x7f0d002c
 int layout design_text_input_end_icon 0x7f0d002d
 int layout design_text_input_start_icon 0x7f0d002e
 int layout fragment_lista_musica 0x7f0d002f
+int layout fragment_musica 0x7f0d0069
 int layout fragment_reproductor 0x7f0d0030
+int layout fragment_usuario 0x7f0d006a
 int layout mtrl_alert_dialog 0x7f0d0031
 int layout mtrl_alert_dialog_actions 0x7f0d0032
 int layout mtrl_alert_dialog_title 0x7f0d0033

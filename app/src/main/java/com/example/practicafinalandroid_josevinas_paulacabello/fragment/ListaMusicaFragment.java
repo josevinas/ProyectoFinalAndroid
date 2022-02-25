@@ -18,14 +18,13 @@ import com.example.practicafinalandroid_josevinas_paulacabello.R;
 import com.example.practicafinalandroid_josevinas_paulacabello.adapter.MusicaAdapter;
 import com.example.practicafinalandroid_josevinas_paulacabello.entidades.Cancion;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListaMusicaFragment extends Fragment {
 
     private RecyclerView recycler;
-    //private RecyclerView.Adapter adapter;
+
     private RecyclerView.LayoutManager layoutManager;
 
     TextView nombreCancionReproductor;
@@ -74,11 +73,6 @@ public class ListaMusicaFragment extends Fragment {
     }
 
     private void rellenarDatos() {
-        canciones.add(new Cancion(R.drawable.como_camaron, "Como Camarón", "Estopa"));
-        canciones.add(new Cancion(R.drawable.como_camaron, "Como Camarón", "Estopa"));
-        canciones.add(new Cancion(R.drawable.como_camaron, "Como Camarón", "Estopa"));
-        canciones.add(new Cancion(R.drawable.como_camaron, "Como Camarón", "Estopa"));
-        canciones.add(new Cancion(R.drawable.como_camaron, "Como Camarón", "Estopa"));
         canciones.add(new Cancion(R.drawable.como_camaron, "Como Camarón", "Estopa"));
         canciones.add(new Cancion(R.drawable.corazon_partio, "Corazón Partío", "Alejandroi Sanz"));
         canciones.add(new Cancion(R.drawable.princesas, "Princesas", "Pereza"));

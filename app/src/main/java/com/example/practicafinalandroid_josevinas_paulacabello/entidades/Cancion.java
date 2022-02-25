@@ -1,8 +1,5 @@
 package com.example.practicafinalandroid_josevinas_paulacabello.entidades;
 
-//import android.text.format.Time;
-import java.sql.Time;
-
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
