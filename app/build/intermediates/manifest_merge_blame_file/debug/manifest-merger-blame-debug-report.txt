@@ -6,67 +6,67 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
-9-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
+8-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:5-28:19
 12        android:allowBackup="true"
-12-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:6:9-35
+12-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.1] C:\Users\Josele\.gradle\caches\transforms-3\e89cc30d83e7763ffd18296e3e008066\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/icono"
-15-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:7:9-37
+15-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:7:9-37
 16        android:label="@string/app_name"
-16-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:8:9-41
+16-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/icono_round"
-17-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:9:9-48
+17-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:9:9-48
 18        android:supportsRtl="true"
-18-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:10:9-35
+18-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
-20-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:11:9-81
+20-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:11:9-81
 21        <activity
-21-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:12:9-20:20
-22            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
-22-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:13:13-41
-23            android:exported="true" >
-23-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:16:17-69
-25-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:18:17-77
-27-->F:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29        </activity>
-30
-31        <provider
-31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-32            android:name="androidx.startup.InitializationProvider"
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-33            android:authorities="com.example.practicafinalandroid_josevinas_paulacabello.androidx-startup"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-34            android:exported="false" >
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-35            <meta-data
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-37                android:value="androidx.startup" />
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-38            <meta-data
-38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-40                android:value="androidx.startup" />
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\AlumnoDAM\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-41        </provider>
+21-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MusicaActivity"
+22-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:13:13-43
+23            android:exported="false" />
+23-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
+25-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:16:13-41
+26            android:exported="true" >
+26-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:19:17-69
+28-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:21:17-77
+30-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <meta-data
+34-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:25:9-27:57
+35            android:name="preloaded_fonts"
+35-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:26:13-43
+36            android:resource="@array/preloaded_fonts" />
+36-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:27:13-54
+37
+38        <service
+38-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 42    </application>
 43
 44</manifest>

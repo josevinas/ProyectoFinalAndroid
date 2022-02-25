@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
-import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+import androidx.room.Transaction;
 import androidx.room.Update;
 
 import com.example.practicafinalandroid_josevinas_paulacabello.entidades.Usuario;
@@ -16,12 +16,17 @@ import java.util.List;
 public interface UsuarioDAO {
 
     // Insertar Usuario
-    @Insert(onConflict = OnConflictStrategy.ABORT)
+    @Insert
     void insert(Usuario usuario);
 
     // Leer Usuario
-    @Query("SELECT * FROM usuario WHERE nombre LIKE :nombre LIMIT 1")
-    Usuario readByCod(String nombre);
+    @Query("SELECT nombre FROM usuario WHERE nombre LIKE :name")
+    String readName(String name);
+
+    //Leer TODOS Usuarios
+//    @Transaction
+//    @Query("SELECT nombre FROM usuario")
+//    LiveData<List<String>> readAll();
 
     // Eliminar Usuario
     @Delete

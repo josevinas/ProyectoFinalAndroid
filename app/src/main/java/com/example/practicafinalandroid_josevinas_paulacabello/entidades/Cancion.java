@@ -1,6 +1,7 @@
 package com.example.practicafinalandroid_josevinas_paulacabello.entidades;
 
-import android.text.format.Time;
+//import android.text.format.Time;
+import java.sql.Time;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -19,17 +20,12 @@ public class Cancion {
     @ColumnInfo(name = "autor")
     private String autor;
 
-    @NonNull
-    @ColumnInfo(name = "duracion")
-    private Time duracion;
-
     @ColumnInfo(name = "imagen")
     private int imagen;
 
-    public Cancion (String nombre, String autor, Time duracion, int imagen) {
+    public Cancion (int imagen, String nombre, String autor) {
         this.nombre = nombre;
         this.autor = autor;
-        this.duracion = duracion;
         this.imagen = imagen;
     }
 
@@ -47,14 +43,6 @@ public class Cancion {
 
     public void setAutor(String autor) {
         this.autor = autor;
-    }
-
-    public Time getDuracion() {
-        return duracion;
-    }
-
-    public void setDuracion(Time duracion) {
-        this.duracion = duracion;
     }
 
     public int getImagen() {

@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/drawable/background.xml" value="0.33425925925925926" />
         <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/drawable/ic_toast_foreground.xml" value="0.2890625" />
         <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/activity_musica.xml" value="0.18796296296296297" />
+        <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/activity_musica_recycler.xml" value="0.18796296296296297" />
+        <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/fragment_lista_musica.xml" value="0.18796296296296297" />
+        <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/fragment_reproductor.xml" value="0.18796296296296297" />
+        <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/musica_cardview.xml" value="0.18796296296296297" />
         <entry key="..\:/WSandroid/Unidad4/practicaFinalAndroid_JoseVinas_PaulaCabello/app/src/main/res/layout/toast_vacio.xml" value="0.20244565217391305" />
       </map>
     </option>

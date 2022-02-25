@@ -2,6 +2,7 @@ package com.example.practicafinalandroid_josevinas_paulacabello;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.LiveData;
 import androidx.room.Database;
 import androidx.room.Room;
 
@@ -28,16 +29,13 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText campoUsuario, campoContrasena;
-    private Button botonEntrar, botonRegistrar;
+
     private UsuarioDataBase usuarioDataBase;
     private Usuario usu;
     private String usuario, contrasena;
     private Toast toast;
     private boolean existeUsuario;
     Intent intent;
-
-    private static List<Usuario> listaUsuarios = new ArrayList<>();
-    private ArrayList<Cancion> listaCanciones = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,9 +44,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         campoUsuario = findViewById(R.id.campoUsuario);
         campoContrasena = findViewById(R.id.campoContrasena);
-        botonEntrar = findViewById(R.id.botonEntrar);
-        botonRegistrar = findViewById(R.id.botonRegistrar);
-
     }
 
     @Override
@@ -56,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (view.getId()) {
             case R.id.botonEntrar:
-                usuarioDataBase = Room.databaseBuilder(getApplicationContext(), UsuarioDataBase.class, "musica.db").allowMainThreadQueries().build();
+                usuarioDataBase = Room.databaseBuilder(getApplicationContext(), UsuarioDataBase.class, "usuarios.db").allowMainThreadQueries().build();
                 usuario = campoUsuario.getText().toString();
                 contrasena = campoContrasena.getText().toString();
 
@@ -64,42 +59,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     alertDialog();
                 }
                 else {
-                    existeUsuario = false;
-                    for (Usuario u : listaUsuarios) {
-                        if (u.getNombre().equals(usuario)) {
-                            existeUsuario = true;
-                            break;
-                        }
-                    }
-                    if (existeUsuario) {
+//                    existeUsuario = false;
+                    if (usuarioDataBase.usuarioDAO().readName(usuario).equals(usuario)) {
                         intent = new Intent(MainActivity.this, MusicaActivity.class);
-                        intent.putParcelableArrayListExtra("listaCanciones", (ArrayList<? extends Parcelable>) usu.getLista());
                         startActivity(intent);
                     }
+//                    for (String n : listaNombres) {
+//                        if (n.equals(usuario)) {
+//                            existeUsuario = true;
+//                            break;
+//                        }
+//                    }
                     else {
                         Toast.makeText(this, "El usuario no está registrado.", Toast.LENGTH_SHORT).show();
                     }
                 }
                 break;
             case R.id.botonRegistrar:
-                usuarioDataBase = Room.databaseBuilder(getApplicationContext(), UsuarioDataBase.class, "musica.db").allowMainThreadQueries().build();
+                usuarioDataBase = Room.databaseBuilder(getApplicationContext(), UsuarioDataBase.class, "usuarios.db").allowMainThreadQueries().build();
                 usuario = campoUsuario.getText().toString();
                 contrasena = campoContrasena.getText().toString();
 
-                if (usuario.equals("") || contrasena.equals("")) {
+                if (usuario .equals("") || contrasena.equals("")) {
                     alertDialog();
                 }
                 else {
+                    usu = new Usuario(campoUsuario.getText().toString(), campoContrasena.getText().toString());
                     try {
-                        usu = new Usuario(usuario, contrasena, listaCanciones);
-
                         usuarioDataBase.usuarioDAO().insert(usu);
                         campoUsuario.setText("");
                         campoContrasena.setText("");
-                        Toast.makeText(this, "Usuario registrado correctamente!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "Usuario registrado correctamente!", Toast.LENGTH_LONG).show();
 
                         intent = new Intent(MainActivity.this, MusicaActivity.class);
-                        intent.putParcelableArrayListExtra("listaCanciones", (ArrayList<? extends Parcelable>) usu.getLista());
                         startActivity(intent);
                     }
                     catch (Exception e) {

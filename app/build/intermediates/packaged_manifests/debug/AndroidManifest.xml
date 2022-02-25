@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="32" />
+        android:targetSdkVersion="29" />
 
     <application
         android:allowBackup="true"
@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
         <activity
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MusicaActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -28,17 +31,14 @@
             </intent-filter>
         </activity>
 
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.practicafinalandroid_josevinas_paulacabello.androidx-startup"
-            android:exported="false" >
-            <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-                android:value="androidx.startup" />
-        </provider>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
     </application>
 
 </manifest>
