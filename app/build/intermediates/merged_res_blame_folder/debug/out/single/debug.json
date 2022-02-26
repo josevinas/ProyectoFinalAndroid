@@ -1,190 +1,194 @@
 [
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_icono.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-mdpi\\icono.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_lista_musica.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_lista_musica.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\raw_como_camaron.mp3.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\raw\\como_camaron.mp3"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_icono_round.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-hdpi\\icono_round.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pestanas.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_pestanas.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pestanas.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\activity_pestanas.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_musica.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\fragment_musica.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_icono_round.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-hdpi\\icono_round.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_musica_cardview.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\musica_cardview.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_toast_duplicado.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\toast_duplicado.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\anim_slade.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\anim\\slade.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_icono_round.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxhdpi\\icono_round.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\font_open_sans_bold.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\font\\open_sans_bold.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_icono.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxhdpi\\icono.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_usuario.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\fragment_usuario.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_icono.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxxhdpi\\icono.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_corazon_partio.jpg.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\corazon_partio.jpg"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_icono_round.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xhdpi\\icono_round.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_musica_recycler.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_musica_recycler.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_musica_recycler.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\activity_musica_recycler.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_modificar.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_modificar.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_icono_round.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxhdpi\\icono_round.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_inicio.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\icono_inicio.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\font_open_sans_bold.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\font\\open_sans_bold.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_como_camaron.jpg.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\como_camaron.jpg"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\font_open_sans_light.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\font\\open_sans_light.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\background.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_princesas.jpg.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\princesas.jpg"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_icono_round.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-mdpi\\icono_round.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_icono.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-mdpi\\icono.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_icono_round.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-anydpi-v26\\icono_round.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_icono_round.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxxhdpi\\icono_round.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_icono.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-anydpi-v26\\icono.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_transition.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\anim\\fade_transition.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_icono.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xhdpi\\icono.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_icono.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxhdpi\\icono.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_princesas.jpg.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\princesas.jpg"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_musica.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_musica.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_icono_round.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xhdpi\\icono_round.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_transition.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\anim\\fade_transition.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_lista_musica.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\fragment_lista_musica.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_icono.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-hdpi\\icono.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_account.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\ic_account.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_icono_round.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-anydpi-v26\\icono_round.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\background.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\font_open_sans_light.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\font\\open_sans_light.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_icono.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xhdpi\\icono.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_icono_round.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-mdpi\\icono_round.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_icono_inicio.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\icono_inicio.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_icono.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-anydpi-v26\\icono.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_toast_duplicado.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\toast_duplicado.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_musica_cardview.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\musica_cardview.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_musica.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\activity_musica.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_toast_foreground.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\ic_toast_foreground.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_reproductor.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_reproductor.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_icono_round.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxxhdpi\\icono_round.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_usuario.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\layout\\fragment_usuario.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_icono.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-hdpi\\icono.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_corazon_partio.jpg.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\corazon_partio.jpg"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_account.png.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\ic_account.png"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\anim_slade.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\anim\\slade.xml"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_icono.png.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\mipmap-xxxhdpi\\icono.png"
     },
     {
-        "merged": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_toast_foreground.xml.flat",
-        "source": "E:\\WSandroid\\Unidad4\\practicaFinalAndroid_JoseVinas_PaulaCabello\\app\\src\\main\\res\\drawable\\ic_toast_foreground.xml"
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_reproductor.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\fragment_reproductor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_como_camaron.jpg.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\como_camaron.jpg"
     }
 ]

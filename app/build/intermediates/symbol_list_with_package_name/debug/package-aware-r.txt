@@ -1688,10 +1688,14 @@ id botonEntrar
 id botonRegistrar
 id bottom
 id bounce
+id btnCancelar
+id btnModificaActivity
+id btnModificaFragment
+id btn_eliminar
 id buttonPanel
 id cache_measures
 id campoContrasena
-id campoNombre
+id campoUsuario
 id cancel_button
 id cardView
 id center
@@ -1974,6 +1978,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_nombre
 id tv_nombreCancion
 id tv_nombreCancionReproductor
 id tv_nombreCantante
@@ -2052,7 +2057,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_musica
+layout activity_modificar
 layout activity_musica_recycler
 layout activity_pestanas
 layout custom_dialog
@@ -2134,6 +2139,7 @@ mipmap ic_launcher_round
 mipmap icono
 mipmap icono_round
 plurals mtrl_badge_content_description
+raw como_camaron
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2164,6 +2170,9 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btn_cancelarMod
+string btn_eliminar
+string btn_modificar
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2224,6 +2233,7 @@ string path_password_strike_through
 string registrarse
 string search_menu_title
 string status_bar_notification_info_overflow
+string tv_modificar
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

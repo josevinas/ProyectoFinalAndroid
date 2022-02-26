@@ -4,4 +4,8 @@
     <string name="contrasena">Contraseña</string>
     <string name="entrar">ENTRAR</string>
     <string name="registrarse">REGISTRARSE</string>
+    <string name="btn_modificar">Modificar usuario</string>
+    <string name="btn_eliminar">Eliminar usuario</string>
+    <string name="btn_cancelarMod">Cancelar</string>
+    <string name="tv_modificar">Introduzca los nuevos datos</string>
 </resources>

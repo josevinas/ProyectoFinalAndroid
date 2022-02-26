@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:textAlignment="center"
     android:background="@drawable/background"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -22,10 +22,11 @@
             tools:ignore="ImageContrastCheck" />
 
         <EditText
-            android:id="@+id/campoNombre"
+            android:id="@+id/campoUsuario"
             android:layout_width="320dp"
             android:layout_height="48dp"
-            android:layout_margin="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="44dp"
             android:background="#D6D0D0"
             android:gravity="center"
             android:hint="@string/nombre"
@@ -37,7 +38,8 @@
             android:id="@+id/campoContrasena"
             android:layout_width="320dp"
             android:layout_height="48dp"
-            android:layout_margin="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="88dp"
             android:background="#D6D0D0"
             android:ems="10"
             android:gravity="center"
@@ -52,7 +54,8 @@
             android:id="@+id/botonEntrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="44dp"
             android:onClick="onClick"
             android:text="@string/entrar" />
 
@@ -60,7 +63,7 @@
             android:id="@+id/botonRegistrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="137dp"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:onClick="onClick"
             android:text="@string/registrarse" />

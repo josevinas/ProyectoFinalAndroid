@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.practicafinalandroid_josevinas_paulacabello.adapter.FragmentsAdapter;
@@ -14,11 +15,15 @@ public class PestanasActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager2 viewPager2;
     private FragmentsAdapter adapter;
+    private static String nombre;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pestanas);
+
+        Intent intent = getIntent();
+        this.nombre = intent.getStringExtra("nombre");
 
         tabLayout = findViewById(R.id.tabLayout);
         viewPager2 = findViewById(R.id.viewPager2);
@@ -53,5 +58,9 @@ public class PestanasActivity extends AppCompatActivity {
                 tabLayout.selectTab(tabLayout.getTabAt(position));
             }
         });
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }

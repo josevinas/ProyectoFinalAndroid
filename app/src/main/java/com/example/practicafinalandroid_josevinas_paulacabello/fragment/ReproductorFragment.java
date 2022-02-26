@@ -1,6 +1,8 @@
 package com.example.practicafinalandroid_josevinas_paulacabello.fragment;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -20,6 +22,9 @@ public class ReproductorFragment extends Fragment {
     private ImageView cerrar;
     private ImageView play;
     private ImageView pause;
+    private MediaPlayer mp;
+    private int posicion;
+    private boolean boolPause = false;
 
     public ReproductorFragment() {
         // Required empty public constructor
@@ -35,23 +40,54 @@ public class ReproductorFragment extends Fragment {
         play = view.findViewById(R.id.img_play);
         pause = view.findViewById(R.id.img_pause);
 
-        cerrar.setOnClickListener(new View.OnClickListener() {
+        /*cerrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 View frag = getActivity().findViewById(R.id.fragmentoReproduce);
                 frag.setVisibility(View.INVISIBLE);
 
-
+                if (mp != null) {
+                    mp.stop();
+                    posicion = 0;
+                }
             }
         });
 
-        /*play.setOnClickListener(new View.OnClickListener() {
+        play.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                play.setColorFilter(R.color.cardview_light_background);
+            public void onClick(View v) {
+
+                play.setColorFilter(Color.GREEN);
+                pause.setColorFilter(Color.WHITE);
+
+                if (boolPause) {
+                    if (mp != null && mp.isPlaying() == false) {
+                        mp.seekTo(posicion);
+                        mp.start();
+                        boolPause = false;
+                    }
+                } else {
+                    mp = MediaPlayer.create(getContext(), R.raw.como_camaron);
+                    mp.start();
+                    boolPause = false;
+                }
+            }
+        });
+
+        pause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                pause.setColorFilter(Color.RED);
+                play.setColorFilter(Color.WHITE);
+
+                if (mp != null && mp.isPlaying()) {
+                    posicion = mp.getCurrentPosition();
+                    mp.pause();
+                    boolPause = true;
+                }
             }
         });*/
-
 
         return view;
     }

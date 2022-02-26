@@ -19,6 +19,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
         <activity
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity2"
+            android:exported="false" />
+        <activity
             android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
             android:exported="false" />
         <activity

@@ -23,6 +23,9 @@ public interface UsuarioDAO {
     @Query("SELECT * FROM usuario WHERE nombre = :nombre")
     Usuario getByName(String nombre);
 
+    @Query("UPDATE usuario SET nombre = :nombre, contrasena = :contrasena WHERE nombre = :nombreModifica")
+    int updateUser(String nombre, String contrasena, String nombreModifica);
+
     // Eliminar Usuario
     @Delete
     void delete(Usuario usuario);

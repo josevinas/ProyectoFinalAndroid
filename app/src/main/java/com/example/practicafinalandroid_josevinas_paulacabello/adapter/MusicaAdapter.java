@@ -46,6 +46,7 @@ public class MusicaAdapter extends RecyclerView.Adapter<MusicaAdapter.MusicaView
 
 //        holder.pasarDatos(canciones.get(position));
         introduceDatos(holder, position);
+        //Se añade animación a los cardview
         holder.cardView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.slade));
     }
 
