@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".ModificarActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

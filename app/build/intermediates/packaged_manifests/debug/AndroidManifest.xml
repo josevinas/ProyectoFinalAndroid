@@ -19,16 +19,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
         <activity
-            android:name="com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.SplashScreenActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +27,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

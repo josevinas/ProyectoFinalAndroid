@@ -1867,6 +1867,7 @@ int id percent 0x7f0a0109
 int id pin 0x7f0a010a
 int id position 0x7f0a010b
 int id postLayout 0x7f0a010c
+int id progressBar 0x7f0a018d
 int id progress_circular 0x7f0a010d
 int id progress_horizontal 0x7f0a010e
 int id radio 0x7f0a010f
@@ -2059,6 +2060,7 @@ int layout activity_main 0x7f0d001c
 int layout activity_modificar 0x7f0d001d
 int layout activity_musica_recycler 0x7f0d001e
 int layout activity_pestanas 0x7f0d001f
+int layout activity_splash_screen 0x7f0d006a
 int layout custom_dialog 0x7f0d0020
 int layout design_bottom_navigation_item 0x7f0d0021
 int layout design_bottom_sheet_dialog 0x7f0d0022

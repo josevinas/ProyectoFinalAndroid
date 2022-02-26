@@ -29,40 +29,40 @@
 20        android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
 20-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:11:9-81
 21        <activity
-21-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:12:9-14:40
-22            android:name="com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity"
-22-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:13:13-46
-23            android:exported="false" />
-23-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:14:13-37
-24        <activity
-24-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity2"
-25-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:16:13-42
-26            android:exported="false" />
-26-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:17:13-37
-27        <activity
-27-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:18:9-20:40
-28            android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
-28-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:19:13-45
-29            android:exported="false" />
-29-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:20:13-37
+21-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.example.practicafinalandroid_josevinas_paulacabello.SplashScreenActivity"
+22-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:13:13-49
+23            android:exported="true" >
+23-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:14:13-36
+24            <intent-filter>
+24-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
 30        <activity
-30-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:21:9-29:20
-31            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
-31-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:22:13-41
-32            android:exported="true" >
-32-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:23:13-36
-33            <intent-filter>
-33-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:24:13-28:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:25:17-69
-34-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:25:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:27:17-77
-36-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:27:27-74
-37            </intent-filter>
-38        </activity>
+30-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity"
+31-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:22:13-46
+32            android:exported="false" />
+32-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
+34-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:25:13-45
+35            android:exported="false" />
+35-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:27:9-29:39
+37            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
+37-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:28:13-41
+38            android:exported="true" />
+38-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:29:13-36
 39
 40        <meta-data
 40-->C:\Users\Paula\UsersPaulaProyecto\app\src\main\AndroidManifest.xml:31:9-33:57

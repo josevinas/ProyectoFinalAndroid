@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\fragment_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_corazon_partio.jpg.flat",
-        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\corazon_partio.jpg"
-    },
-    {
         "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_musica_recycler.xml.flat",
         "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_musica_recycler.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\drawable_corazon_partio.jpg.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\drawable\\corazon_partio.jpg"
     },
     {
         "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_modificar.xml.flat",
@@ -142,6 +142,10 @@
     {
         "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
         "merged": "C:\\Users\\Paula\\UsersPaulaProyecto\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_icono.png.flat",

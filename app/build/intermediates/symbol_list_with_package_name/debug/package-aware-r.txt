@@ -1868,6 +1868,7 @@ id percent
 id pin
 id position
 id postLayout
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -2060,6 +2061,7 @@ layout activity_main
 layout activity_modificar
 layout activity_musica_recycler
 layout activity_pestanas
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

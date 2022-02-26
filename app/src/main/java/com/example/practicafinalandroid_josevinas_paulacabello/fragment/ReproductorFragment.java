@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.practicafinalandroid_josevinas_paulacabello.R;
@@ -24,6 +25,7 @@ public class ReproductorFragment extends Fragment {
     private ImageView pause;
     private MediaPlayer mp;
     private int posicion;
+    private ProgressBar progressBar;
     private boolean boolPause = false;
 
     public ReproductorFragment() {
@@ -39,6 +41,7 @@ public class ReproductorFragment extends Fragment {
         cerrar = view.findViewById(R.id.img_close);
         play = view.findViewById(R.id.img_play);
         pause = view.findViewById(R.id.img_pause);
+        progressBar = view.findViewById(R.id.progressBar);
 
         /*cerrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,7 +54,7 @@ public class ReproductorFragment extends Fragment {
                     posicion = 0;
                 }
             }
-        });
+        });*/
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,6 +72,9 @@ public class ReproductorFragment extends Fragment {
                 } else {
                     mp = MediaPlayer.create(getContext(), R.raw.como_camaron);
                     mp.start();
+                    progressBar.setSecondaryProgress(100);
+                    progressBar.setProgress(80);
+                    progressBar.setMax(100);
                     boolPause = false;
                 }
             }
@@ -87,7 +93,7 @@ public class ReproductorFragment extends Fragment {
                     boolPause = true;
                 }
             }
-        });*/
+        });
 
         return view;
     }
