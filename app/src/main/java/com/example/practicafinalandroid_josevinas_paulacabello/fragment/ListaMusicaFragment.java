@@ -68,6 +68,15 @@ public class ListaMusicaFragment extends Fragment {
                 imagenCancionReproductor.setImageResource(canciones.get(recycler.getChildAdapterPosition(view)).getImagen());
                 View frag = getActivity().findViewById(R.id.fragmentoReproduce);
                 frag.setVisibility(View.VISIBLE);
+                View frag2 = getActivity().findViewById(R.id.fragmentoList);
+                frag2.setVisibility(View.GONE);
+
+                ReproductorFragment fragment = (ReproductorFragment) getFragmentManager().findFragmentById(R.id.fragmentoReproduce);
+                fragment.iniciar();
+
+
+                /*ReproductorFragment reproductorFragment = new ReproductorFragment();
+                reproductorFragment.iniciar(frag);*/
             }
         });
 

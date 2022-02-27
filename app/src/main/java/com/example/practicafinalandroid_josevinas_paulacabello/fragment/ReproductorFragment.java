@@ -31,9 +31,9 @@ public class ReproductorFragment extends Fragment {
     private boolean boolPause = false;
 
     private ListaMusicaFragment listaMusicaFragment;
-    private List<Cancion> listaCanciones;
+    private static List<Cancion> listaCanciones;
     private static TextView nombreCancion;
-    private String nombreMp3;
+    private static String nombreMp3;
 
     public ReproductorFragment() {
         // Required empty public constructor
@@ -53,75 +53,68 @@ public class ReproductorFragment extends Fragment {
         play = view.findViewById(R.id.img_play);
         pause = view.findViewById(R.id.img_pause);
 
-        mp = new MediaPlayer();
-        detener(view);
-        destruir();
-
-//        for (Cancion c : listaCanciones) {
-//            if (nombreCancion.getText().toString().equals(c.getNombre())) {
-//                nombreMp3 = c.getMp3();
-//            }
-//        }
-//        iniciar(nombreMp3);
-
         cerrar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                play.setColorFilter(Color.WHITE);
-                pause.setColorFilter(Color.WHITE);
-//                mp = new MediaPlayer();
-                // Si inicio otra cancion solapa con la anterior
-                View frag = getActivity().findViewById(R.id.fragmentoReproduce);
-                frag.setVisibility(View.INVISIBLE);
+            public void onClick(View v) {
+                detener();
+                destruir();
+                boolPause = false;
 
-//                if (mp != null) {
-//                    mp.stop();
-//                    posicion = 0;
-//                }
+                View frag = getActivity().findViewById(R.id.fragmentoReproduce);
+                frag.setVisibility(View.GONE);
+                View frag2 = getActivity().findViewById(R.id.fragmentoList);
+                frag2.setVisibility(View.VISIBLE);
+
             }
         });
+
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                play.setColorFilter(Color.GREEN);
-                pause.setColorFilter(Color.WHITE);
-
-                iniciar(obtenerNombre(), view);
+                if (boolPause) {
+                    continuar();
+                    play.setColorFilter(Color.GREEN);
+                    pause.setColorFilter(Color.WHITE);
+                } else
+                    iniciar();
             }
         });
+
         pause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pause.setColorFilter(Color.RED);
-                play.setColorFilter(Color.WHITE);
                 pausar();
             }
         });
+
         return view;
     }
 
-    public void destruir() {
-        if (boolPause = true) {
-            mp.release();
-            boolPause = false;
-        }
-//        if (mp != null) {
-//            mp.release();
-//            boolPause = false;
-//        }
+    public void iniciar() {
+        destruir();
+
+        play.setColorFilter(Color.GREEN);
+        pause.setColorFilter(Color.WHITE);
+
+        Uri datos = Uri.parse(Objects.requireNonNull(getContext()).getExternalFilesDir(null).toString() + "/" + obtenerNombre());
+        mp = MediaPlayer.create(getContext(), datos);
+        mp.start();
+
+
     }
 
-    public void iniciar(String nombreMp3, View view) {
-        if (!boolPause) {
-            Uri datosCancion = Uri.parse(Objects.requireNonNull(getContext()).getExternalFilesDir(null).toString() + "/" + nombreMp3);
-            mp = MediaPlayer.create(getContext(), datosCancion);
-            mp.start();
-        } else {
-            continuar(view);
-        }
+    public void destruir() {
+
+        if (mp != null)
+            mp.release();
+
     }
 
     public void pausar() {
+
+        pause.setColorFilter(Color.RED);
+        play.setColorFilter(Color.WHITE);
+
         if (mp != null && mp.isPlaying()) {
             posicion = mp.getCurrentPosition();
             mp.pause();
@@ -129,25 +122,31 @@ public class ReproductorFragment extends Fragment {
         }
     }
 
-    public void continuar(View view) {
-        if (mp != null && !mp.isPlaying()) {
+    public void continuar() {
+
+        if (mp != null && mp.isPlaying() == false) {
             mp.seekTo(posicion);
             mp.start();
         }
+
     }
 
-    public void detener(View view) {
+    public void detener() {
+
         if (mp != null) {
             mp.stop();
             posicion = 0;
             boolPause = false;
         }
+
     }
 
     public String obtenerNombre() {
-        for (Cancion c : listaCanciones) {
-            if (nombreCancion.getText().toString().equals(c.getNombre())) {
-                nombreMp3 = c.getMp3();
+        for (Cancion cancion : listaCanciones) {
+//            System.out.println("/////////////////////// Nombre cancion text view = " + nombreCancion.getText().toString());
+            if (nombreCancion.getText().toString().equals(cancion.getNombre())) {
+                nombreMp3 = cancion.getMp3();
+//                System.out.println("********************************** nombre: " + nombreMp3);
             }
         }
         return nombreMp3;

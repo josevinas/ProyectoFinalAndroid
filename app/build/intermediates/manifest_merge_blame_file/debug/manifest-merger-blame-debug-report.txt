@@ -6,86 +6,86 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
+8-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
+9-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:4:5-80
-11-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:4:22-77
+11-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:4:22-77
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:5-81
-12-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:22-78
+12-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:5:22-78
 13
 14    <application
-14-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:7:5-36:19
+14-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:7:5-36:19
 15        android:allowBackup="true"
-15-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:8:9-35
+15-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:8:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.3.1] C:\Users\Josele\.gradle\caches\transforms-3\e89cc30d83e7763ffd18296e3e008066\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.3.1] C:\Users\Paula\.gradle\caches\transforms-3\ea13ed173a9d42da6e88818a6f30bccf\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:icon="@mipmap/icono"
-18-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:9:9-37
+18-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:9:9-37
 19        android:label="@string/app_name"
-19-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:10:9-41
+19-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:10:9-41
 20        android:roundIcon="@mipmap/icono_round"
-20-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:11:9-48
+20-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:11:9-48
 21        android:supportsRtl="true"
-21-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:12:9-35
+21-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:12:9-35
 22        android:testOnly="true"
 23        android:theme="@style/Theme.PracticaFinalAndroid_JoseVinas_PaulaCabello" >
-23-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:13:9-81
+23-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:13:9-81
 24        <activity
-24-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:14:9-16:38
+24-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:14:9-16:38
 25            android:name="com.example.practicafinalandroid_josevinas_paulacabello.SplashScreenActivity"
-25-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:15:13-49
+25-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:15:13-49
 26            android:exported="true" />
-26-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:16:13-36
+26-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:16:13-36
 27        <activity
-27-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:17:9-19:40
+27-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:17:9-19:40
 28            android:name="com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity"
-28-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:18:13-46
+28-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:18:13-46
 29            android:exported="false" />
-29-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:19:13-37
+29-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:19:13-37
 30        <activity
-30-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:20:9-22:40
+30-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:20:9-22:40
 31            android:name="com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity"
-31-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:21:13-45
+31-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:21:13-45
 32            android:exported="false" />
-32-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:22:13-37
+32-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:22:13-37
 33        <activity
-33-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:23:9-31:20
+33-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:23:9-31:20
 34            android:name="com.example.practicafinalandroid_josevinas_paulacabello.MainActivity"
-34-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:24:13-41
+34-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:24:13-41
 35            android:exported="true" >
-35-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:25:13-36
+35-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:25:13-36
 36            <intent-filter>
-36-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:26:13-30:29
+36-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:26:13-30:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:27:17-69
-37-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:27:25-66
+37-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:27:17-69
+37-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:27:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:29:17-77
-39-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:29:27-74
+39-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:29:17-77
+39-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:29:27-74
 40            </intent-filter>
 41        </activity>
 42
 43        <meta-data
-43-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:33:9-35:57
+43-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:33:9-35:57
 44            android:name="preloaded_fonts"
-44-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:34:13-43
+44-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:34:13-43
 45            android:resource="@array/preloaded_fonts" />
-45-->E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:35:13-54
+45-->C:\Users\Paula\ProyectoFinalAndroid\app\src\main\AndroidManifest.xml:35:13-54
 46
 47        <service
-47-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+47-->[androidx.room:room-runtime:2.2.5] C:\Users\Paula\.gradle\caches\transforms-3\3ec9ec4c7c59e6fab97076404f9aee49\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 48            android:name="androidx.room.MultiInstanceInvalidationService"
-48-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+48-->[androidx.room:room-runtime:2.2.5] C:\Users\Paula\.gradle\caches\transforms-3\3ec9ec4c7c59e6fab97076404f9aee49\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 49            android:directBootAware="true"
-49-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+49-->[androidx.room:room-runtime:2.2.5] C:\Users\Paula\.gradle\caches\transforms-3\3ec9ec4c7c59e6fab97076404f9aee49\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
 50            android:exported="false" />
-50-->[androidx.room:room-runtime:2.2.5] C:\Users\Josele\.gradle\caches\transforms-3\c710c0fd3e02ffb98bd063193a817109\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+50-->[androidx.room:room-runtime:2.2.5] C:\Users\Paula\.gradle\caches\transforms-3\3ec9ec4c7c59e6fab97076404f9aee49\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 51    </application>
 52
 53</manifest>
