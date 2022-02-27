@@ -124,7 +124,7 @@ public class ReproductorFragment extends Fragment {
 
     public void continuar() {
 
-        if (mp != null && mp.isPlaying() == false) {
+        if (mp != null && !mp.isPlaying()) {
             mp.seekTo(posicion);
             mp.start();
         }
@@ -143,10 +143,8 @@ public class ReproductorFragment extends Fragment {
 
     public String obtenerNombre() {
         for (Cancion cancion : listaCanciones) {
-//            System.out.println("/////////////////////// Nombre cancion text view = " + nombreCancion.getText().toString());
             if (nombreCancion.getText().toString().equals(cancion.getNombre())) {
                 nombreMp3 = cancion.getMp3();
-//                System.out.println("********************************** nombre: " + nombreMp3);
             }
         }
         return nombreMp3;

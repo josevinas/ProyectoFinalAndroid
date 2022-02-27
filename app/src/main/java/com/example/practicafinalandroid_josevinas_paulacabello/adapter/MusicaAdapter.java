@@ -20,9 +20,9 @@ import java.util.List;
 //Se implementa el OnClickListener con los métodos correspondientes
 public class MusicaAdapter extends RecyclerView.Adapter<MusicaAdapter.MusicaViewHolder> implements View.OnClickListener {
 
-    private List<Cancion> canciones;
-//    private LayoutInflater inflater;
-    private Context context;
+    private final List<Cancion> canciones;
+    private final Context context;
+
     //Se declara un listener para poder ejecutar posteriormente el OnClick
     private View.OnClickListener listener;
 
@@ -66,19 +66,19 @@ public class MusicaAdapter extends RecyclerView.Adapter<MusicaAdapter.MusicaView
         }
     }
 
-    public class MusicaViewHolder extends RecyclerView.ViewHolder {
+    public static class MusicaViewHolder extends RecyclerView.ViewHolder {
 
-        private ImageView imagen;
+        private final ImageView imagen;
 
-        private TextView nombreCancion;
-        private TextView nombreCantante;
-        private CardView cardView;
+        private final TextView nombreCancion;
+        private final TextView nombreCantante;
+        private final CardView cardView;
 
         public MusicaViewHolder(@NonNull View itemView) {
             super(itemView);
-            imagen = (ImageView) itemView.findViewById(R.id.img_cancion);
-            nombreCancion = (TextView) itemView.findViewById(R.id.tv_nombreCancion);
-            nombreCantante = (TextView) itemView.findViewById(R.id.tv_nombreCantante);
+            imagen = itemView.findViewById(R.id.img_cancion);
+            nombreCancion = itemView.findViewById(R.id.tv_nombreCancion);
+            nombreCantante = itemView.findViewById(R.id.tv_nombreCantante);
             cardView = itemView.findViewById(R.id.cardView);
         }
     }

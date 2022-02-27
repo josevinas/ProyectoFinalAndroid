@@ -74,9 +74,6 @@ public class ListaMusicaFragment extends Fragment {
                 ReproductorFragment fragment = (ReproductorFragment) getFragmentManager().findFragmentById(R.id.fragmentoReproduce);
                 fragment.iniciar();
 
-
-                /*ReproductorFragment reproductorFragment = new ReproductorFragment();
-                reproductorFragment.iniciar(frag);*/
             }
         });
 

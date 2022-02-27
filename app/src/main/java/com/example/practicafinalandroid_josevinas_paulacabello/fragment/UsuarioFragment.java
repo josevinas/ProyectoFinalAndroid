@@ -26,8 +26,6 @@ import com.example.practicafinalandroid_josevinas_paulacabello.roomDataBase.Usua
 public class UsuarioFragment extends Fragment implements View.OnClickListener {
 
     private TextView tv_nombre;
-    private Button btnModificar, btnEliminar;
-    private UsuarioDataBase usuarioDataBase;
 
     public UsuarioFragment() {
         // Required empty public constructor
@@ -39,8 +37,8 @@ public class UsuarioFragment extends Fragment implements View.OnClickListener {
         View view = inflater.inflate(R.layout.fragment_usuario, container, false);
 
         tv_nombre = view.findViewById(R.id.tv_nombre);
-        btnEliminar = view.findViewById(R.id.btn_eliminar);
-        btnModificar = view.findViewById(R.id.btnModificaFragment);
+        Button btnEliminar = view.findViewById(R.id.btn_eliminar);
+        Button btnModificar = view.findViewById(R.id.btnModificaFragment);
 
         PestanasActivity pestanasActivity = new PestanasActivity();
         String nombre = pestanasActivity.getNombre();
@@ -67,14 +65,14 @@ public class UsuarioFragment extends Fragment implements View.OnClickListener {
 
     private void mostrarAlert() {
         new AlertDialog.Builder(getContext())
-                .setTitle("¿Está seguro de que desea realizar esta acción?")
-                .setPositiveButton("CONTINUAR", new DialogInterface.OnClickListener() {
+                .setTitle(R.string.txt_alert_modify)
+                .setPositiveButton(R.string.btn_continuar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         eliminarUsuario(tv_nombre.getText().toString());
                     }
                 })
-                .setNegativeButton("CANCELAR", new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.btn_cancelar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
@@ -90,9 +88,11 @@ public class UsuarioFragment extends Fragment implements View.OnClickListener {
     }
 
     private void eliminarUsuario(String nombre) {
-        usuarioDataBase = Room.databaseBuilder(getContext(), UsuarioDataBase.class, "usuarios.db").allowMainThreadQueries().build();
+        UsuarioDataBase usuarioDataBase = Room.databaseBuilder(getContext(), UsuarioDataBase.class, "usuarios.db").allowMainThreadQueries().build();
+
         Usuario usuarioEliminar = usuarioDataBase.usuarioDAO().getByName(nombre);
         usuarioDataBase.usuarioDAO().delete(usuarioEliminar);
+
         Intent intent = new Intent(getContext(), MainActivity.class);
         startActivity(intent);
     }

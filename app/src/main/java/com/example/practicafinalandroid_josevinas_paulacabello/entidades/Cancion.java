@@ -5,26 +5,17 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-//@Entity(tableName = "cancion")
 public class Cancion {
 
-//    @PrimaryKey
-//    @NonNull
-//    @ColumnInfo(name = "nombre")
     private String nombre;
 
-//    @NonNull
-//    @ColumnInfo(name = "autor")
     private String autor;
 
-//    @NonNull
-//    @ColumnInfo(name = "mp3")
     private String mp3;
 
-//    @ColumnInfo(name = "imagen")
     private int imagen;
 
-    public Cancion (int imagen, String nombre, String autor, String mp3) {
+    public Cancion(int imagen, String nombre, String autor, String mp3) {
         this.nombre = nombre;
         this.autor = autor;
         this.imagen = imagen;

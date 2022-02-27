@@ -14,7 +14,6 @@ public class PestanasActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager2 viewPager2;
-    private FragmentsAdapter adapter;
     private static String nombre;
 
     @Override
@@ -28,11 +27,11 @@ public class PestanasActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabLayout);
         viewPager2 = findViewById(R.id.viewPager2);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Canciones"));
-        tabLayout.addTab(tabLayout.newTab().setText("Perfil"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.canciones_tab));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.perfil_tab));
 
         FragmentManager fragmentManager = getSupportFragmentManager();
-        adapter = new FragmentsAdapter(fragmentManager, getLifecycle());
+        FragmentsAdapter adapter = new FragmentsAdapter(fragmentManager, getLifecycle());
         viewPager2.setAdapter(adapter);
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
