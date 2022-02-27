@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private UsuarioDataBase usuarioDataBase;
     private Usuario usuario;
-    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-
         switch (view.getId()) {
             case R.id.botonEntrar:
                 iniciarSesión();
@@ -51,20 +49,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void iniciarSesión() {
         if (campoNombre.getText().toString().equals("") || campoContrasena.getText().toString().equals("")) {
             alertDialog();
-        }
-        else {
+        } else {
             usuarioDataBase = Room.databaseBuilder(getApplicationContext(), UsuarioDataBase.class, "usuarios.db").allowMainThreadQueries().build();
             usuario = usuarioDataBase.usuarioDAO().getByName(campoNombre.getText().toString());
 
             if (usuario == null) {
                 Toast.makeText(this, "El usuario no está registrado.", Toast.LENGTH_SHORT).show();
-            }
-            else if (!usuario.getContrasena().equals(campoContrasena.getText().toString())) {
+            } else if (!usuario.getContrasena().equals(campoContrasena.getText().toString())) {
                 Toast.makeText(this, "Contraseña incorrecta.", Toast.LENGTH_SHORT).show();
                 campoContrasena.setText("");
-            }
-            else {
-                cambiarActividad();
+            } else {
+                String nombreUsu = usuario.getNombre();
+                cambiarActividad(nombreUsu);
             }
         }
     }
@@ -72,15 +68,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void registrarUsuario() {
         if (campoNombre.getText().toString().equals("") || campoContrasena.getText().toString().equals("")) {
             alertDialog();
-        }
-        else {
+        } else {
             usuarioDataBase = Room.databaseBuilder(getApplicationContext(), UsuarioDataBase.class, "usuarios.db").allowMainThreadQueries().build();
             usuario = new Usuario(campoNombre.getText().toString(), campoContrasena.getText().toString());
             try {
                 usuarioDataBase.usuarioDAO().insert(usuario);
                 Toast.makeText(this, "Usuario registrado correctamente!", Toast.LENGTH_LONG).show();
-            }
-            catch (Exception e) {
+            } catch (Exception e) {
                 Toast toast = new Toast(getApplicationContext());
                 LayoutInflater inflater = getLayoutInflater();
                 View v = inflater.inflate(R.layout.toast_duplicado, (ViewGroup) findViewById(R.id.toast_duplicado));
@@ -97,8 +91,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void cambiarActividad() {
-        intent = new Intent(MainActivity.this, PestanasActivity.class);
+    private void cambiarActividad(String nombreUsu) {
+        Intent intent = new Intent(MainActivity.this, PestanasActivity.class);
+        intent.putExtra("nombre", nombreUsu);
         startActivity(intent);
     }
 

@@ -21,7 +21,7 @@ import java.util.List;
 public class MusicaAdapter extends RecyclerView.Adapter<MusicaAdapter.MusicaViewHolder> implements View.OnClickListener {
 
     private List<Cancion> canciones;
-    private LayoutInflater inflater;
+//    private LayoutInflater inflater;
     private Context context;
     //Se declara un listener para poder ejecutar posteriormente el OnClick
     private View.OnClickListener listener;
@@ -46,6 +46,7 @@ public class MusicaAdapter extends RecyclerView.Adapter<MusicaAdapter.MusicaView
 
 //        holder.pasarDatos(canciones.get(position));
         introduceDatos(holder, position);
+        //Se añade animación a los cardview
         holder.cardView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.slade));
     }
 

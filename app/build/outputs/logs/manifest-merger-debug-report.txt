@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Josele\.gradle\caches\transforms-3\92c494ad049d22c5a773e3188be7d49e\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Josele\.gradle\caches\transforms-3\d3dc1b04020dde5349a563828b949efc\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Josele\.gradle\caches\transforms-3\d76f35a08c08216004feed386d7db8d0\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -35,25 +35,33 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Josele\.gradle\caches\tr
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Josele\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Josele\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Josele\.gradle\caches\transforms-3\dad45be7fb3d40cd3f820bd1d6623c5b\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:3:5-70
 		INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
 		INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:4:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:22-78
 application
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:7:5-36:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Josele\.gradle\caches\transforms-3\92c494ad049d22c5a773e3188be7d49e\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\Josele\.gradle\caches\transforms-3\92c494ad049d22c5a773e3188be7d49e\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Josele\.gradle\caches\transforms-3\d3dc1b04020dde5349a563828b949efc\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -67,45 +75,57 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Jo
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\Josele\.gradle\caches\transforms-3\e89cc30d83e7763ffd18296e3e008066\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:9:9-48
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:11:9-48
 	android:icon
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:7:9-37
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:9:9-37
 	android:allowBackup
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:11:9-81
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:13:9-81
+activity#com.example.practicafinalandroid_josevinas_paulacabello.SplashScreenActivity
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:14:9-16:38
+	android:exported
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:15:13-49
+activity#com.example.practicafinalandroid_josevinas_paulacabello.ModificarActivity
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:18:13-46
 activity#com.example.practicafinalandroid_josevinas_paulacabello.PestanasActivity
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:12:9-14:40
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:21:13-45
 activity#com.example.practicafinalandroid_josevinas_paulacabello.MainActivity
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:23:9-31:20
 	android:exported
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:29:27-74
 meta-data#preloaded_fonts
-ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:25:9-27:57
+ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:33:9-35:57
 	android:resource
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:27:13-54
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:35:13-54
 	android:name
-		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:26:13-43
+		ADDED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml:34:13-43
 uses-sdk
 INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\WSandroid\Unidad4\practicaFinalAndroid_JoseVinas_PaulaCabello\app\src\main\AndroidManifest.xml

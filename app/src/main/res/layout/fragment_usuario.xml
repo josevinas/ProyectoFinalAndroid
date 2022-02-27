@@ -14,28 +14,29 @@
         app:srcCompat="@drawable/ic_account" />
 
     <TextView
+        android:id="@+id/tv_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans_bold"
         android:gravity="center"
-        android:text="Nombre usuario"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp" />
 
     <Button
+        android:id="@+id/btnModificaFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:text="Modificar usuario" />
+        android:text="@string/btn_modificar" />
 
     <Button
+        android:id="@+id/btn_eliminar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="45dp"
-        android:text="Eliminar usuario" />
-
+        android:text="@string/btn_eliminar" />
 
 </LinearLayout>

@@ -1093,6 +1093,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color stop_background
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1564,6 +1565,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_toast_foreground
 drawable icono_inicio
+drawable jesucristo_garcia
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1594,9 +1596,11 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable princesas
+drawable stop_foreground
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable veneno
 font open_sans_bold
 font open_sans_light
 id ALT
@@ -1604,6 +1608,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id ImagenCancionReproductor
 id META
 id NO_DEBUG
 id SHIFT
@@ -1688,10 +1693,15 @@ id botonEntrar
 id botonRegistrar
 id bottom
 id bounce
+id btnCancelar
+id btnModificaActivity
+id btnModificaFragment
+id btn_eliminar
 id buttonPanel
 id cache_measures
 id campoContrasena
 id campoNombre
+id campoUsuario
 id cancel_button
 id cardView
 id center
@@ -1974,6 +1984,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_nombre
 id tv_nombreCancion
 id tv_nombreCancionReproductor
 id tv_nombreCantante
@@ -2052,9 +2063,11 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_modificar
 layout activity_musica
 layout activity_musica_recycler
 layout activity_pestanas
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2133,7 +2146,15 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap icono
 mipmap icono_round
+mipmap stop
+mipmap stop_round
 plurals mtrl_badge_content_description
+raw como_camaron
+raw corazon_partio
+raw jesucristo_garcia
+raw princesas
+raw stand_by
+raw veneno
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2164,6 +2185,9 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string btn_cancelarMod
+string btn_eliminar
+string btn_modificar
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2224,6 +2248,7 @@ string path_password_strike_through
 string registrarse
 string search_menu_title
 string status_bar_notification_info_overflow
+string tv_modificar
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
