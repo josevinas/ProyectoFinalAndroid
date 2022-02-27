@@ -71,14 +71,14 @@ public class UsuarioFragment extends Fragment implements View.OnClickListener {
     private void mostrarAlert() {
 
         new AlertDialog.Builder(getContext())
-                .setTitle("¿Está seguro de que desea realizar esta acción?")
-                .setPositiveButton("CONTINUAR", new DialogInterface.OnClickListener() {
+                .setTitle(R.string.txt_alert_modify)
+                .setPositiveButton(R.string.btn_continuar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         eliminarUsuario(tv_nombre.getText().toString());
                     }
                 })
-                .setNegativeButton("CANCELAR", new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.btn_cancelar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 

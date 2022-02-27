@@ -4,8 +4,33 @@
     <string name="contrasena">Contraseña</string>
     <string name="entrar">ENTRAR</string>
     <string name="registrarse">REGISTRARSE</string>
-    <string name="btn_modificar">Modificar usuario</string>
+
+    <!-- Strings Toast-->
+    <string name="usuario_noRegistrado_Toast">El usuario no está registrado.</string>
+    <string name="contraseña_incorrecta_Toast">Contraseña incorrecta.</string>
+    <string name="registroCorrecto_Toast">Usuario registrado correctamente!</string>
+    <string name="error_usuario_duplicado">ERROR - USUARIO DUPLICADO</string>
+
+    <!-- Strings AlertDialog Main-->
+    <string name="txt_error_alert">ERROR</string>
+    <string name="txt_alert">Algún campo requerido se encuentra vacío. \nIntroduzca los datos necesarios.</string>
+    <string name="btn_entendido_alert">Entendido</string>
+    
+    <!-- Strings pestañas-->
+    <string name="canciones_tab">Canciones</string>
+    <string name="perfil_tab">Perfil</string>
+
+    <!-- Strings Modificar Activity-->
     <string name="btn_eliminar">Eliminar usuario</string>
-    <string name="btn_cancelarMod">Cancelar</string>
     <string name="tv_modificar">Introduzca los nuevos datos</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_modificar">Modificar usuario</string>
+    <string name="error_camposVacios">Introduzca un valor</string>
+    <string name="txt_alert_modify">¿Está seguro de que desea realizar esta acción?</string>
+    <string name="btn_Confirmar_modifica">Modificar</string>
+    <string name="btn_continuar">Continuar</string>
+
+
+
+
 </resources>

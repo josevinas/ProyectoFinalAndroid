@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.practicafinalandroid_josevinas_paulacabello.roomDataBase.UsuarioDataBase;
 
@@ -61,14 +62,14 @@ public class ModificarActivity extends AppCompatActivity implements View.OnClick
     private void mostrarAlert() {
 
         new AlertDialog.Builder(this)
-                .setTitle("¿Está seguro de que desea realizar esta acción?")
-                .setPositiveButton("MODIFICAR", new DialogInterface.OnClickListener() {
+                .setTitle(R.string.txt_alert_modify)
+                .setPositiveButton(R.string.btn_Confirmar_modifica, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         modificar(nombre);
                     }
                 })
-                .setNegativeButton("CANCELAR", new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.btn_cancelar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                     }
@@ -89,15 +90,17 @@ public class ModificarActivity extends AppCompatActivity implements View.OnClick
 
     private boolean camposVacios() {
 
+        String texto_mensaje = getApplicationContext().getResources().getString(R.string.error_camposVacios);
+
         if (nombreUsuario.getText().toString().equals("") && contrasena.getText().toString().equals("")) {
-            nombreUsuario.setError("Introduzca un valor");
-            contrasena.setError("Introduzca un valor");
+            nombreUsuario.setError(texto_mensaje);
+            contrasena.setError(texto_mensaje);
             return true;
         } else if (nombreUsuario.getText().toString().equals("")) {
-            nombreUsuario.setError("Introduzca un valor");
+            nombreUsuario.setError(texto_mensaje);
             return true;
         } else if (contrasena.getText().toString().equals("")) {
-            contrasena.setError("Introduzca un valor");
+            contrasena.setError(texto_mensaje);
             return true;
         }
         return false;

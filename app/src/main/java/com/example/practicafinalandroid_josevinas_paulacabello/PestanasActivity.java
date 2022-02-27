@@ -28,8 +28,8 @@ public class PestanasActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabLayout);
         viewPager2 = findViewById(R.id.viewPager2);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Perfil"));
-        tabLayout.addTab(tabLayout.newTab().setText("Canciones"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.canciones_tab));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.perfil_tab));
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         adapter = new FragmentsAdapter(fragmentManager, getLifecycle());

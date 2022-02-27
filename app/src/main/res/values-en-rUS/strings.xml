@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">practicaFinalAndroid_JoseVinas_PaulaCabello</string>
+    <string name="nombre">Name</string>
+    <string name="contrasena">Password</string>
+    <string name="entrar">Sign in</string>
+    <string name="registrarse">Sign up</string>
+    <string name="btn_modificar">Modify user</string>
+    <string name="btn_eliminar">Remove user</string>
+    <string name="btn_cancelar">Cancel</string>
+    <string name="tv_modificar">Enter the new data</string>
+    <string name="contraseña_incorrecta_Toast">Incorrect password.</string>
+    <string name="usuario_noRegistrado_Toast">User is not registered.</string>
+    <string name="registroCorrecto_Toast">User successfully registered!</string>
+    <string name="txt_alert">A required field is empty.\nPlease enter the required data.</string>
+    <string name="txt_error_alert">ERROR</string>
+    <string name="btn_entendido_alert">Okay</string>
+    <string name="canciones_tab">Songs</string>
+    <string name="perfil_tab">My account</string>
+    <string name="error_camposVacios">Enter a value.</string>
+    <string name="txt_alert_modify">Are you sure you want to take this action?</string>
+    <string name="btn_Confirmar_modifica">"Modify "</string>
+    <string name="btn_continuar">Continue</string>
+    <string name="error_usuario_duplicado">ERROR - DUPLICATE USER</string>
+</resources>

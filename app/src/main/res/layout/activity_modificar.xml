@@ -75,6 +75,6 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:onClick="onClick"
-            android:text="@string/btn_cancelarMod" />
+            android:text="@string/btn_cancelar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

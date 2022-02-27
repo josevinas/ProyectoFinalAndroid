@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             usuario = usuarioDataBase.usuarioDAO().getByName(campoNombre.getText().toString());
 
             if (usuario == null) {
-                Toast.makeText(this, "El usuario no está registrado.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.usuario_noRegistrado_Toast, Toast.LENGTH_SHORT).show();
             } else if (!usuario.getContrasena().equals(campoContrasena.getText().toString())) {
-                Toast.makeText(this, "Contraseña incorrecta.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, R.string.contraseña_incorrecta_Toast, Toast.LENGTH_SHORT).show();
                 campoContrasena.setText("");
             } else {
                 String nombreUsu = usuario.getNombre();
@@ -75,13 +75,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             usuario = new Usuario(campoNombre.getText().toString(), campoContrasena.getText().toString());
             try {
                 usuarioDataBase.usuarioDAO().insert(usuario);
-                Toast.makeText(this, "Usuario registrado correctamente!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, R.string.registroCorrecto_Toast, Toast.LENGTH_LONG).show();
             } catch (Exception e) {
                 Toast toast = new Toast(getApplicationContext());
                 LayoutInflater inflater = getLayoutInflater();
                 View v = inflater.inflate(R.layout.toast_duplicado, (ViewGroup) findViewById(R.id.toast_duplicado));
                 TextView txt = (TextView) v.findViewById(R.id.txtMensaje);
-                txt.setText("ERROR - USUARIO DUPLICADO");
+                txt.setText(R.string.error_usuario_duplicado);
                 toast.setDuration(Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.setView(v);
@@ -102,15 +102,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // LLamamos al método alertDialog() en caso de que algún campo requerido se encuentre vacío
     public void alertDialog() {
         new AlertDialog.Builder(this)
-                .setTitle("ERROR")
-                .setMessage("Algún campo requerido se encuentra vacío.\nIntroduzca los datos necesarios.")
-                .setPositiveButton("ENTENDIDO", new DialogInterface.OnClickListener() {
+                .setTitle(R.string.txt_error_alert)
+                .setMessage(R.string.txt_alert)
+                .setPositiveButton(R.string.btn_entendido_alert, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
                     }
                 })
-                .setNegativeButton("CANCELAR", new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.btn_cancelar, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         campoNombre.setText("");

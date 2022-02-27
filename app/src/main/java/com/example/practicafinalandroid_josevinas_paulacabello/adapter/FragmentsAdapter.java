@@ -19,9 +19,10 @@ public class FragmentsAdapter extends FragmentStateAdapter {
     @Override
     public Fragment createFragment(int position) {
         if (position == 1)
-            return new MusicaFragment();
-        else
             return new UsuarioFragment();
+        else {
+            return new MusicaFragment();
+        }
     }
 
     @Override
